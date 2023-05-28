@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+header{
+	background-color: #000;
+	color: #fff;
+	font-family: arial;
+	width: 100%;
+	min-width: 200px;
+	height: 9rem;
+	position: fixed;
+}
+
+h3{
+	text-align: left;
+	font-size: 3.1rem;
+	font-family: arial;
+	margin-left: 30px;
+	padding-top: 15px;
+}
+
+h4{
+	text-align: left;
+	font-size: 2.1rem;
+	font-family: arial;
+	min-width: 10px;
+	margin-left: 47px;
+}
+
+body{
+	background-color: #E6E6FA;
+
+}
+
+.container{
+	display: block;
+	background-color: #fff;
+	width: 95%;
+     box-shadow: 2px 2px #B22222;
+     margin: 0 auto;
+     max-width: 95%;
+     min-width: 95%;  
+}
+
+footer{
+	background-color: #000;
+	color: #fff;
+	font-family: arial;
+	width: 100%;
+	min-width: 200px;
+	height: 230px;
+}
+
+p{
+	font-family: arial;
+	text-align: justify;
+	padding: 5px;
+	font-size: 1.5rem;
+}
+
+h1{
+	font-family: arial;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 2.8rem;
+}
+
+h2{
+	font-family: arial;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 2.2rem;
+}
+.texto-footer{
+	font-family: arial;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.6rem;
+	padding-bottom: 5px;
+}
+
+.compre{
+	background-color: #FFFF00;
+	width: 120px;
+	height: 85px;
+	position: fixed;
+	right: 5px;
+	text-align: center;
+	margin-top: 250px;
+	z-index: 1;
+	border-radius: 20px;
+	padding-top: 5px;
+	box-shadow: 5px 5px #B22222;
+}
+
+h5{
+	font-family: arial;
+	text-align: center;
+	padding: 5px;
+	font-size: 1.6rem;
+}
+
+button{
+    font-family: arial;
+    text-align: center;
+    font-size: 1.7rem;
+    background-color: #32CD32;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;    
+    box-shadow: 3px 3px #B22222;
+}
+
+
+#grid-container{
+	margin-top: 5px;
+	background-color: #00FA9A;
+	padding: 5px;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+.grid div{
+	background-color: #fff;
+	font-family: arial;
+	text-align: center;
+	font-size: 1.6rem;
+	padding: 2px;
+}
+
+#formulario{
+	background-color: #87CEFA;
+}
+.formulario-contato{
+	font-family: arial;
+	font-size: 1.8rem;
+	padding: 10px;
+	text-align: left;
+	margin-left: 3%;
+	font-weight: bold;
+}
+
+input{
+	font-family: sans-serif;
+	font-size: 1.7rem;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.dados-formulario{
+	width: 60%;
+}
+
+nav{
+
+	text-align: right;
+	font-size: 1.6rem;
+	word-spacing: 10px;
+	margin-right: 30%;
+}
+
+a{
+	color: #fff;
+}
